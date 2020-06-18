@@ -41,25 +41,36 @@
   height: 40px;
   border-radius: 20px;
   background-color: #323242;
-
+  position: absolute;
+  top: 35%;
   &-left {
+    left: 20px;
   }
   &-right {
+    right: 20px;
   }
-  .triangle {
-    border-image: none;
-    height: 30px;
-    width: 30px;
-    color: #fff;
-    background-color: #e00000;
-    line-height: 38px;
-    background-image: linear-gradient(
-      -225deg,
-      transparent calc(100% - 40px),
-      rgba(224, 0, 0, 1) calc(100% - 40px),
-      rgba(255, 59, 0, 1) calc(100% - 20px)
-    );
-    &:after {
+}
+
+.circule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 6px;
+    &-right {
+      border-top: 13px solid transparent;
+      border-bottom: 13px solid transparent;
+      border-left: 16px solid #afafaf;
+      right: 10px;
+    }
+    &-left {
+      border-top: 13px solid transparent;
+      border-bottom: 13px solid transparent;
+      border-right: 16px solid #afafaf;
+      left: 10px;
     }
   }
 }

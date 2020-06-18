@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  overflow: hidden;
+  //   overflow: hidden;
   background: linear-gradient(
     to bottom,
     rgba(21, 21, 38, 1),
@@ -14,6 +14,7 @@ body {
   padding: 0;
   position: relative;
   font-size: 14px;
+  //   background: red !important;
 }
 
 // font-family: 'Lato', sans-serif;
