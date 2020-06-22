@@ -1,6 +1,7 @@
 .top-area {
   display: flex;
   justify-content: center;
+  position: relative;
   .part-1 {
     text-align: right;
     a {
@@ -42,7 +43,7 @@
   border-radius: 20px;
   background-color: #323242;
   position: absolute;
-  top: 35%;
+  top: 30%;
   &-left {
     left: 20px;
   }

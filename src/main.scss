@@ -1,19 +1,23 @@
 body {
-  height: 100vh;
-  //   overflow: hidden;
+  background: rgb(231, 232, 234);
   background: linear-gradient(
-    to bottom,
-    rgba(21, 21, 38, 1),
-    rgba(231, 232, 234, 1)
+    0deg,
+    rgba(231, 232, 234, 1) 14%,
+    rgba(196, 196, 201, 1) 45%,
+    rgba(158, 158, 166, 1) 63%,
+    rgba(148, 148, 156, 1) 68%,
+    rgba(22, 22, 39, 1) 100%
   );
   background-color: transparent;
   background-repeat: no-repeat;
-  background-position: center;
+  //   background-position: center;
   background-size: cover;
   margin: 0;
   padding: 0;
   position: relative;
-  font-size: 14px;
+  font-size: 19px;
+  font-family: "Lato", sans-serif;
+
   //   background: red !important;
 }
 
