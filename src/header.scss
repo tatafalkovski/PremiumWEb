@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  .logo {
+    margin-top: 30px;
+  }
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 45px;
+    a {
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      padding: 0 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      transition: transform 0.3s ease;
+    }
+    a:hover {
+      color: #1c1c2f;
+      border-radius: 5px;
+      background-color: #d2d2d5;
+    }
+    // .top-button {
+    // }
+  }
+}
